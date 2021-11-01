@@ -19,16 +19,16 @@ public class FullstackApiApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Student student = new Student();
-        student.setFirstName("Zoheeb");
-        student.setLastName("Ishaque");
-        student.setEmail("zoheeb@gmail.com");
-        studentRepository.save(student);
-
-        Student student1 = new Student();
-        student1.setFirstName("Pierre");
-        student1.setLastName("Gris");
-        student1.setEmail("pierre@gmail.com");
-        studentRepository.save(student1);
+//        Student student = new Student();
+//        student.setFirstName("Zoheeb");
+//        student.setLastName("Ishaque");
+//        student.setEmail("zoheeb@gmail.com");
+//        studentRepository.save(student);
+//
+//        Student student1 = new Student();
+//        student1.setFirstName("Pierre");
+//        student1.setLastName("Gris");
+//        student1.setEmail("pierre@gmail.com");
+//        studentRepository.save(student1);
     }
 }
